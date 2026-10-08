@@ -1,0 +1,18 @@
+MAPS Management Portal v2.2
+
+1. Upload this complete folder/project to Vercel.
+2. Add the existing environment variables:
+   GOOGLE_SHEET_ID
+   GOOGLE_SERVICE_ACCOUNT_EMAIL
+   GOOGLE_PRIVATE_KEY
+   SESSION_SECRET
+3. Use the current/new active Google private key, never the revoked/exposed old key.
+4. Redeploy after adding/changing environment variables.
+5. No manual Google Sheet redesign is required for the dashboard analytics update.
+
+New in v2.2:
+- MAPS logo in sidebar.
+- Analytics Dashboard with month / all months / custom range filters.
+- Teacher, program, section and subject analytics.
+- Weekly Schedule Excel export for any authorized user.
+- Monthly Timesheet Excel export for any authorized user.

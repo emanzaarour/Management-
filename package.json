@@ -1,0 +1,30 @@
+{
+  "name": "maps-management-portal",
+  "version": "2.2.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "test": "vitest run",
+    "test:e2e": "playwright test"
+  },
+  "dependencies": {
+    "exceljs": "^4.4.0",
+    "googleapis": "^184.0.0",
+    "next": "^15.5.0",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.64.0",
+    "vitest": "^5.0.3"
+  },
+  "overrides": {
+    "postcss": "^8.5.29",
+    "uuid": "^11.1.1"
+  },
+  "engines": {
+    "node": "24.x"
+  }
+}

@@ -1,0 +1,27 @@
+
+> maps-management-portal@2.2.0 test:e2e
+> playwright test
+
+[WebServer] (node:11649) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:11663) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 7 tests using 1 worker
+
+(node:11678) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+(Use `node --trace-warnings ...` to show where the warning was created)
+  ✓  1 tests/browser/portal.spec.js:196:5 › production login, logo, unauthorized APIs and cross-origin mutations (576ms)
+  ✓  2 tests/browser/portal.spec.js:223:5 › Manager dashboard month span, teacher, section, subject and shared Reports filters (727ms)
+  ✓  3 tests/browser/portal.spec.js:259:5 › Attendance defaults Friday/Saturday Off and saves a complete selected month (653ms)
+  ✓  4 tests/browser/portal.spec.js:288:5 › Weekly all sections, shift filtering, manager-selected dates and immediate conflict (595ms)
+  ✓  5 tests/browser/portal.spec.js:317:5 › Admin tabs keep independent forms and expose financial/system setup (711ms)
+  ✓  6 tests/browser/portal.spec.js:339:5 › Officer sees Program Sessions and cannot select another person (976ms)
+  ✓  7 tests/browser/portal.spec.js:381:5 › mobile layout and bilingual English LTR / Arabic RTL (601ms)
+
+  7 passed (7.3s)
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

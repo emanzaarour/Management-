@@ -1,0 +1,18 @@
+
+> maps-management-portal@2.2.0 test
+> vitest run
+
+
+ RUN  v5.0.3 /workspace/Management-
+
+
+ Test Files  1 passed (1)
+      Tests  44 passed (44)
+   Start at  07:57:29
+   Duration  1.20s (tests 62%, import 21%, transform 16%)
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
